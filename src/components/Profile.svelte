@@ -1,5 +1,5 @@
-<section>
-  <img src="/profile_picture.jpg" alt="profile-pic" />
+<section class="d-inline-block">
+  <img class="text-center" src="/profile_picture.jpg" alt="profile-pic" />
   <h2>Vincent<span>Dev</span></h2>
 </section>
 
@@ -10,7 +10,7 @@
     margin-top: 10px;
   }
   img {
-    width: 150px;
+    width: 30%;
     border-radius: 50%;
   }
   span{

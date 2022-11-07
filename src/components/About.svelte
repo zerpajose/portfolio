@@ -6,7 +6,7 @@
 
 <section class="container text-center py-5">
   <div class="row">
-    <div class="col">
+    <div class="col text-start">
       <Profile />
     </div>
     <div id="summary" class="col">

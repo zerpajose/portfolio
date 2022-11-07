@@ -2,36 +2,44 @@
   import skills from '../data/skills.json'
 </script>
 
-<div class="container text-center">
+
+
   {#each skills as skill}
-  <div class="row">
-    <h3>{skill.title}</h3>
-    {#each skill.items as item}
-      <div class="col">
-        <div class="card" style="width: 12rem;">
-          <img height="64" width="64" src="{item["icon"]}" alt="{item["lang"]}" />
-          <div class="card-body">
-            <span class="card-title">{item["lang"]}</span>
-          </div>
+  <div class="grid text-start mx-3">  
+    <span class="list-group-item active" aria-current="true">{skill.title}</span>
+    <hr />
+      {#each skill.items as item}
+        <div>
+          <span class="circle"><img height="32" width="32" src="{item["icon"]}" alt="{item["lang"]}"></span>
+          <span>{item["lang"]}</span>
         </div>
-      </div>
-    {/each}
-  </div>
+      {/each}
+      
+    </div>
   {/each}
-</div>
+
 
 <style>
-  h3{
-    color: white;
-  }
   img{
     align-self: center;
+    padding: 10%;
   }
-  .col{
-    align-items: center;
-  }
-  .card-title{
+  .grid{
+    display: inline-table;
+    width: 19%;
+    color: white;
     font-family: 'Press Start 2P', cursive;
-    font-size: 9px;
+    font-size: 10px;
+  }
+  hr{
+    background-color: #47ffe7;
+    height: 2px;
+    border: none;
+  }
+  .circle{
+    background-color: #47ffe7;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 2%;
   }
 </style>
