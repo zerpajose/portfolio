@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Languages",
+    "items": [
+      {
+        "lang": "HTML",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg"
+      },
+      {
+        "lang": "CSS",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg"
+      },
+      {
+        "lang": "Javascript",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg"
+      },
+      {
+        "lang": "Solidity",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/solidity.svg"
+      }
+    ]
+  },
+  {
+    "title": "Frontend",
+    "items": [
+      {
+        "lang": "Svelte",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/svelte.svg"
+      },
+      {
+        "lang": "SvelteKit",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/svelte.svg"
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "items": [
+      {
+        "lang": "NodeJS",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nodedotjs.svg"
+      },
+      {
+        "lang": "Express",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/express.svg"
+      },
+      {
+        "lang": "SQL",
+        "icon": "src/assets/sql.svg"
+      },
+      {
+        "lang": "Postgres",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/postgresql.svg"
+      }
+    ]
+  },
+  {
+    "title": "Blockchain",
+    "items": [
+      {
+        "lang": "Hardhat",
+        "icon": "src/assets/hardhat.svg"
+      },
+      {
+        "lang": "EthersJS",
+        "icon": "src/assets/ethers.svg"
+      }
+    ]
+  }
+]
