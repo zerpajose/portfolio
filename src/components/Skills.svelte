@@ -9,7 +9,7 @@
     <span class="list-group-item active" aria-current="true">{skill.title}</span>
     <hr />
       {#each skill.items as item}
-        <div>
+        <div class="item">
           <span class="circle"><img height="32" width="32" src="{item["icon"]}" alt="{item["lang"]}"></span>
           <span>{item["lang"]}</span>
         </div>
@@ -41,5 +41,8 @@
     border-radius: 100%;
     display: inline-block;
     padding: 2%;
+  }
+  .item{
+    margin: 3%;
   }
 </style>

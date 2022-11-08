@@ -1,20 +1,15 @@
-<style>
-  .footer {
-      margin-top: 2rem;
-      background-color: #4a4a4a;
-      color: #f7f7f7;
-  }
-
-  .footer :global(a),
-  .footer :global(a:active),
-  .footer :global(a:hover),
-  .footer :global(a:visited) {
-      color: #65b6e3;
-  }
-</style>
-
-<footer class="footer">
+<footer class="footer py-2">
   <div class="content has-text-centered">
-    <p>texto</p>
+    2022 - VincentDev
   </div>
 </footer>
+
+<style>
+  .footer {
+    margin-top: 2rem;
+    background-color: #47ffe7;
+    color: #1e0b1d;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+  }
+</style>

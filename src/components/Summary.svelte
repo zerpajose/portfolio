@@ -11,7 +11,7 @@
     bottom: 0;
   }
   p{
-    text-align: right;
+    text-align: left;
     color: rgb(255, 255, 255);
     font-size: 100%;
     font-family: 'Akshar', sans-serif;
