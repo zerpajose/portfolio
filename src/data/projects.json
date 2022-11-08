@@ -43,6 +43,7 @@
   },
   {
     "repo": "Skate Park Santiago",
+    "thumbnail": "https://raw.githubusercontent.com/zerpajose/DL_Superhero/main/assets/img/sh3.png",
     "description": "System to register and manage participants to Skating event",
     "url": ["https://github.com/zerpajose/DL_SkatePark_Event"],
     "labels": ["HTML","CSS","Javascript","Handlebars","SQL"]
