@@ -4,7 +4,7 @@
 </script>
 
 <h2><span class="subtitle">Projects</span></h2>
-<div class="row row-cols-1 row-cols-md-2 g-4 mt-3 ms-5">
+<div class="row gx-0 row-cols-1 row-cols-md-2 mt-3 ms-5">
   {#each projects as project}
   <div class="col">
     <div class="card mb-3" style="max-width: 540px;">
