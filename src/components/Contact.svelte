@@ -1,11 +1,12 @@
 <script>
   import contact from "../data/contact.json"
   import {copyToClipboard} from "../lib/functions"
+    import Modal from "./Modal.svelte";
 </script>
 
 <h2><span class="subtitle">Contact</span></h2>
-<div class="text-center">
-  <div class="row">
+<div class="container text-center">
+  <div class="row gx-0">
     <div class="col"></div>
     <div class="col">
       <div class="row">
@@ -24,19 +25,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="emailModalLabel">Email copied to clipboard</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+<Modal />
 
 <style>
   h2{

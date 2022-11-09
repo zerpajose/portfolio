@@ -1,6 +1,7 @@
 <script>
   import social from "../data/contact.json"
   import {copyToClipboard} from "../lib/functions"
+    import Modal from "./Modal.svelte";
 </script>
 
 <nav class="navbar navbar-expand-lg px-5">
@@ -21,7 +22,7 @@
           {#if network.social === "Gmail"}
             <div class="nav-link text-light">
               <span class="circle">
-                <img on:click={copyToClipboard} on:keypress={copyToClipboard} width="25" src={network.logo} alt="gmail">
+                <img data-bs-toggle="modal" data-bs-target="#emailModal" on:click={copyToClipboard} on:keypress={copyToClipboard} width="25" src={network.logo} alt="gmail">
               </span>
             </div>
           {:else}
@@ -38,6 +39,8 @@
     </div>
   </div>
 </nav>
+
+<Modal />
 
 <style>
   nav{
