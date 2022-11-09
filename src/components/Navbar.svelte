@@ -1,5 +1,6 @@
 <script>
   import social from "../data/contact.json"
+  import {copyToClipboard} from "../lib/functions"
 </script>
 
 <nav class="navbar navbar-expand-lg px-5">
@@ -17,11 +18,20 @@
       <ul class="navbar-nav">
         {#each social as network}
         <li class="nav-item mx-1">
-          <a class="nav-link text-light" href={network.link} target="_blank" rel="noreferrer">
-            <span class="circle">
-              <img width="25" src={network.logo} alt="gmail">
-            </span>
-          </a>
+          {#if network.social === "Gmail"}
+            <div class="nav-link text-light">
+              <span class="circle">
+                <img on:click={copyToClipboard} on:keypress={copyToClipboard} width="25" src={network.logo} alt="gmail">
+              </span>
+            </div>
+          {:else}
+            <a class="nav-link text-light" href={network.link} target="_blank" rel="noreferrer">
+              <span class="circle">
+                <img width="25" src={network.logo} alt="gmail">
+              </span>
+            </a>
+          {/if}
+          
         </li>
         {/each}
       </ul>
@@ -42,5 +52,6 @@
     border-radius: 100%;
     display: inline-block;
     padding: 30%;
+    cursor: pointer;
   }
 </style>

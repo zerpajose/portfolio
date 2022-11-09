@@ -3,6 +3,7 @@
   import projects from '../data/projects.json'
 </script>
 
+<h2><span class="subtitle">Projects</span></h2>
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-3 ms-5">
   {#each projects as project}
   <div class="col">
@@ -34,8 +35,17 @@
 </div>
 
 <style>
+  h2{
+    margin-top: 2%;
+  }
   .filter-cyan{
     filter: invert(91%) sepia(14%) saturate(1784%) hue-rotate(99deg) brightness(102%) contrast(108%);
+  }
+  .subtitle{
+    font-family: 'Press Start 2P', cursive;
+    color: #2d102b;
+    background-color: #47ffe7;
+    padding-left: 3px;
   }
   .label{
     width: 8%;
@@ -43,12 +53,15 @@
     margin-right: 1%;
   }
   .description{
-    font-size: 11px;
+    font-size: 7.8px;
     text-align: left;
+    font-family: 'Press Start 2P', cursive;
   }
   .repo{
     margin-left: 1%;
     margin-right: 1%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
   }
   .card{
     padding: 0;
@@ -59,6 +72,8 @@
   .card-title{
     font-size: medium;
     font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
   }
   .card-img{
     width: 60%;

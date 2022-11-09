@@ -13,7 +13,7 @@
   p{
     text-align: left;
     color: rgb(255, 255, 255);
-    font-size: 100%;
-    font-family: 'Akshar', sans-serif;
+    font-size: 75%;
+    font-family: 'Press Start 2P', cursive;
   }
 </style>
