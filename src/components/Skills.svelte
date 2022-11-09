@@ -2,8 +2,7 @@
   import skills from '../data/skills.json'
 </script>
 
-
-
+  <h1 class="subtitle">Skills</h1>
   {#each skills as skill}
   <div class="grid text-start mx-3">  
     <span class="list-group-item active" aria-current="true">{skill.title}</span>
@@ -23,6 +22,10 @@
   img{
     align-self: center;
     padding: 10%;
+  }
+  .subtitle{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #47ffe7;
   }
   .grid{
     display: inline-table;

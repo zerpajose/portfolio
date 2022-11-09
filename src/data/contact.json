@@ -1,0 +1,22 @@
+[
+  {
+    "social": "Gmail",
+    "link": "zjose88@gmail.com",
+    "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/gmail.svg"
+  },
+  {
+    "social": "Twitter",
+    "link": "https://twitter.com/zerpajose",
+    "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/twitter.svg"
+  },
+  {
+    "social": "Github",
+    "link": "https://github.com/zerpajose",
+    "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg"
+  },
+  {
+    "social": "LinkedIn",
+    "link": "https://www.linkedin.com/in/josevzerpam/",
+    "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg"
+  }
+]

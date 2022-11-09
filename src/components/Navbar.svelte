@@ -1,22 +1,5 @@
 <script>
-  let social = [
-    {
-      link: "mailto:zjose88@gmail.com",
-      logo: "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/gmail.svg"
-    },
-    {
-      link: "https://twitter.com/zerpajose",
-      logo: "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/twitter.svg"
-    },
-    {
-      link: "https://github.com/zerpajose",
-      logo: "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg"
-    },
-    {
-      link: "https://www.linkedin.com/in/josevzerpam/",
-      logo: "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg"
-    }
-  ]
+  import social from "../data/contact.json"
 </script>
 
 <nav class="navbar navbar-expand-lg px-5">

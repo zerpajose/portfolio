@@ -1,4 +1,5 @@
 <script>
+  import { Tooltip } from "svelte-tooltip-simple";
   import projects from '../data/projects.json'
 </script>
 
@@ -7,19 +8,21 @@
   <div class="col">
     <div class="card mb-3" style="max-width: 540px;">
       <div class="row g-0">
-        <div class="col-md-4">
-          <img src={project.thumbnail} class="card-img img-fluid rounded-start pt-4" alt={project.thumbnail}>
+        <div class="thumb col-md-4">
+          <img src={project.thumbnail} class="card-img img-fluid rounded-start" alt={project.thumbnail}>
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">{project.repo}</h5>
             <p class="description card-text">{project.description}</p>
+            <hr>
             {#each project.url as url, index}
-              <span> Repo {index+1} </span><a href={url}><img class="github" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg" alt="github"></a>  
+              <span class="repo">Repo {index+1} <a href={url}><img class="github" src="/src/assets/github.svg" alt="github"></a></span>
             {/each}
+            <hr>
             <p class="card-text">
               {#each project.labels as label}
-                <small class="text-muted">-{label} </small>
+                <img class="filter-cyan label" src={label} alt={label}>
               {/each}
             </p>
           </div>
@@ -31,20 +34,41 @@
 </div>
 
 <style>
+  .filter-cyan{
+    filter: invert(91%) sepia(14%) saturate(1784%) hue-rotate(99deg) brightness(102%) contrast(108%);
+  }
+  .label{
+    width: 8%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
   .description{
     font-size: 11px;
+    text-align: left;
+  }
+  .repo{
+    margin-left: 1%;
+    margin-right: 1%;
   }
   .card{
     padding: 0;
+    background: rgba(255, 255, 255, 0);
+    color: #47ffe7;
+    border-color: #47ffe7;
   }
   .card-title{
     font-size: medium;
     font-weight: bold;
   }
   .card-img{
-    width: 125px;
+    width: 60%;
+    margin-left: 10%;
   }
   .github{
     width: 10%;
+  }
+  .thumb{
+    display: flex;
+    align-items: center;
   }
 </style>
