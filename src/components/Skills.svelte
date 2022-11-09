@@ -26,7 +26,7 @@
   }
   .subtitle{
     font-family: 'Press Start 2P', cursive;
-    color: #2d102b;
+    color: #1e0b1d;
     background-color: #47ffe7;
     padding-left: 3px;
   }
