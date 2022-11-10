@@ -4,13 +4,13 @@
 </script>
 
 <h2><span class="subtitle">Projects</span></h2>
-<div class="row gx-0 row-cols-1 row-cols-md-2 mt-3 ms-5">
+<div class="project row gx-0 row-cols-1 row-cols-md-2 mt-3">
   {#each projects as project}
   <div class="col">
     <div class="card mb-3" style="max-width: 540px;">
       <div class="row g-0">
         <div class="thumb col-md-4">
-          <img src={project.thumbnail} class="card-img img-fluid rounded-start" alt={project.thumbnail}>
+          <img src={project.thumbnail} class="card-img img-fluid rounded-start mx-auto" alt={project.thumbnail}>
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -77,7 +77,7 @@
   }
   .card-img{
     width: 60%;
-    margin-left: 10%;
+    padding-top: 5%;
   }
   .github{
     width: 10%;
@@ -85,5 +85,9 @@
   .thumb{
     display: flex;
     align-items: center;
+  }
+  .project{
+    margin-left: 5%;
+    margin-right: 5%;
   }
 </style>
