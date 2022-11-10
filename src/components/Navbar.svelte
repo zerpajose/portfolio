@@ -8,7 +8,7 @@
   <div class="container-fluid">
 
     <a class="navbar-brand" href="/">
-      <img src="/src/assets/logo512x512_vaporware.png" alt="VincentDev" width="40">
+      <img src="/img/logo512x512_vaporware.png" alt="VincentDev" width="40">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

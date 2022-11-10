@@ -46,7 +46,7 @@
       },
       {
         "lang": "SQL",
-        "icon": "src/assets/sql.svg"
+        "icon": "/img/sql.svg"
       },
       {
         "lang": "Postgres",
@@ -59,11 +59,11 @@
     "items": [
       {
         "lang": "Hardhat",
-        "icon": "src/assets/hardhat.svg"
+        "icon": "/img/faHardhat.svg"
       },
       {
         "lang": "EthersJS",
-        "icon": "src/assets/ethers.svg"
+        "icon": "/img/ethers.svg"
       }
     ]
   }

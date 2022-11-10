@@ -17,7 +17,7 @@
             <p class="description card-text">{project.description}</p>
             <hr>
             {#each project.url as url, index}
-              <span class="repo">Repo {index+1} <a href={url}><img class="github" src="/src/assets/github.svg" alt="github"></a></span>
+              <span class="repo">Repo {index+1} <a href={url}><img class="github" src="/img/github.svg" alt="github"></a></span>
             {/each}
             <hr>
             <p class="card-text">
