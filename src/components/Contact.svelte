@@ -5,23 +5,21 @@
 </script>
 
 <h2><span class="subtitle">Contact</span></h2>
-<div class="container text-center">
+<div class="socials container text-center">
   <div class="row gx-0">
-    <div class="col"></div>
-    <div class="col">
-      <div class="row">
-        {#each contact as item}
-            <div class="col">
-              {#if item.social === 'Gmail'}
-                <img data-bs-toggle="modal" data-bs-target="#emailModal" on:click={copyToClipboard} on:keypress={copyToClipboard} class="social filter-cyan" src={item.logo} alt={item.social}>
-              {:else}
-                <a href={item.link} target="_blank" rel="noreferrer"><img class="social filter-cyan" src={item.logo} alt={item.social}></a>
-              {/if}
-            </div>
-        {/each}
+    <div class="row">
+      <div class="col"></div>
+    {#each contact as item}
+        <div class="col">
+          {#if item.social === 'Gmail'}
+            <img data-bs-toggle="modal" data-bs-target="#emailModal" on:click={copyToClipboard} on:keypress={copyToClipboard} class="social filter-cyan" src={item.logo} alt={item.social}>
+          {:else}
+            <a href={item.link} target="_blank" rel="noreferrer"><img class="social filter-cyan" src={item.logo} alt={item.social}></a>
+          {/if}
         </div>
+    {/each}
+      <div class="col"></div>
     </div>
-    <div class="col"></div>
   </div>
 </div>
 
@@ -39,8 +37,11 @@
     padding-left: 3px;
   }
   .social{
-    width: 75%;
+    width: 3em;
     cursor: pointer;
+  }
+  .socials{
+    margin-top: 1em;
   }
   .filter-cyan{
     filter: invert(91%) sepia(14%) saturate(1784%) hue-rotate(99deg) brightness(102%) contrast(108%);
