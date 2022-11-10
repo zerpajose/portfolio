@@ -2,19 +2,24 @@
   import skills from '../data/skills.json'
 </script>
 
-  <h2><span class="subtitle">Skills</span></h2>
+<h2><span class="subtitle">Skills</span></h2>
+<div class="skills-list">
   {#each skills as skill}
-  <div class="grid text-start mx-3">  
-    <span class="list-group-item active" aria-current="true">{skill.title}</span>
-    <hr />
-      {#each skill.items as item}
-        <div class="item">
-          <span class="circle"><img height="32" width="32" src="{item["icon"]}" alt="{item["lang"]}"></span>
-          <span>{item["lang"]}</span>
-        </div>
-      {/each}
+  <div class="grid text-start">
+    <div>
+      <hr />
+      <span class="list-group-item active" aria-current="true">{skill.title}</span>
+      <hr />
+        {#each skill.items as item}
+          <div class="item">
+            <span class="circle"><img height="32" width="32" src="{item["icon"]}" alt="{item["lang"]}"></span>
+            <span>{item["lang"]}</span>
+          </div>
+        {/each}
     </div>
+  </div>
   {/each}
+</div>
 
 <style>
   h2{
@@ -32,10 +37,12 @@
   }
   .grid{
     display: inline-table;
-    width: 19%;
     color: white;
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
+    width: 15rem;
+    margin-right: 1px;
+    margin-left: 1px;
   }
   hr{
     background-color: #47ffe7;
@@ -50,5 +57,8 @@
   }
   .item{
     margin: 3%;
+  }
+  .skills-list{
+    margin-bottom: 5%;
   }
 </style>

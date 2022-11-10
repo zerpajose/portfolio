@@ -4,19 +4,13 @@
 
 </script>
 
-<section class="container text-center py-5">
+<section class="container text-center py-md-5">
   <div class="row">
-    <div class="col text-start">
+    <div class="col-sm mx-auto">
       <Profile />
     </div>
-    <div id="summary" class="col">
+    <div id="summary" class="col-sm">
       <Summary />
     </div>
   </div>
 </section>
-
-<style>
-  #summary{
-    position: relative;
-  }
-</style>
