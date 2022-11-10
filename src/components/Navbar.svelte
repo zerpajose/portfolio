@@ -7,7 +7,7 @@
 <nav class="navbar navbar-expand-lg px-5">
   <div class="container-fluid">
 
-    <a class="navbar-brand" href="#Home">
+    <a class="navbar-brand" href="/">
       <img src="/src/assets/logo512x512_vaporware.png" alt="VincentDev" width="40">
     </a>
 
@@ -22,13 +22,13 @@
           {#if network.social === "Gmail"}
             <div class="nav-link text-light">
               <span class="circle">
-                <img data-bs-toggle="modal" data-bs-target="#emailModal" on:click={copyToClipboard} on:keypress={copyToClipboard} width="25" src={network.logo} alt="gmail">
+                <img class="social-logo" data-bs-toggle="modal" data-bs-target="#emailModal" on:click={copyToClipboard} on:keypress={copyToClipboard} src={network.logo} alt="gmail">
               </span>
             </div>
           {:else}
             <a class="nav-link text-light" href={network.link} target="_blank" rel="noreferrer">
               <span class="circle">
-                <img width="25" src={network.logo} alt="gmail">
+                <img class="social-logo" src={network.logo} alt="gmail">
               </span>
             </a>
           {/if}
@@ -56,5 +56,11 @@
     display: inline-block;
     padding: 30%;
     cursor: pointer;
+  }
+  .social-logo{
+    width: 1.5em;
+  }
+  .navbar-toggler{
+    background-color: #47ffe7;
   }
 </style>

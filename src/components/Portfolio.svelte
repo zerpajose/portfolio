@@ -1,5 +1,4 @@
 <script>
-  import { Tooltip } from "svelte-tooltip-simple";
   import projects from '../data/projects.json'
 </script>
 
