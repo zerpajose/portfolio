@@ -8,17 +8,20 @@
 <div class="socials container text-center">
   <div class="row gx-0">
     <div class="row">
-      <div class="col"></div>
+      <div class="col-sm"></div>
     {#each contact as item}
-        <div class="col">
+        <div class="social-item col">
           {#if item.social === 'Gmail'}
             <img data-bs-toggle="modal" data-bs-target="#emailModal" on:click={copyToClipboard} on:keypress={copyToClipboard} class="social filter-cyan" src={item.logo} alt={item.social}>
           {:else}
-            <a href={item.link} target="_blank" rel="noreferrer"><img class="social filter-cyan" src={item.logo} alt={item.social}></a>
+            <a href={item.link} target="_blank" rel="noreferrer">
+              <img class="social filter-cyan" src={item.logo} alt={item.social}>
+            </a>
           {/if}
+          <div class="social-name">{item.social}</div>
         </div>
     {/each}
-      <div class="col"></div>
+      <div class="col-sm"></div>
     </div>
   </div>
 </div>
@@ -39,6 +42,15 @@
   .social{
     width: 3em;
     cursor: pointer;
+  }
+  .social-item{
+    margin-bottom: 5%;
+  }
+  .social-name{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 7px;
+    color: #47ffe7;
+    margin-top: 1%;
   }
   .socials{
     margin-top: 1em;

@@ -18,5 +18,10 @@
     "social": "LinkedIn",
     "link": "https://www.linkedin.com/in/josevzerpam/",
     "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg"
+  },
+  {
+    "social": "Resume",
+    "link": "/CV.pdf",
+    "logo": "/img/resume.svg"
   }
 ]
