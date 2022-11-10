@@ -1,5 +1,5 @@
 <section class="d-inline-block">
-  <img class="text-center" src="/profile_picture.jpg" alt="profile-pic" />
+  <img class="profile-pic text-center" src="/profile_picture.jpg" alt="profile-pic" />
   <h2>Vincent<span>Dev</span></h2>
 </section>
 
@@ -9,8 +9,9 @@
     font-family: 'Press Start 2P', cursive;
     margin-top: 10px;
   }
-  img {
+  .profile-pic {
     width: 30%;
+    margin-top: 5%;
     border-radius: 50%;
   }
   span{
