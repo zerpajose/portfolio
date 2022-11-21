@@ -45,12 +45,20 @@
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/express.svg"
       },
       {
+        "lang": "NestJS",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nestjs.svg"
+      },
+      {
         "lang": "SQL",
         "icon": "/img/sql.svg"
       },
       {
         "lang": "Postgres",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/postgresql.svg"
+      },
+      {
+        "lang": "Sequelize",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/sequelize.svg"
       }
     ]
   },

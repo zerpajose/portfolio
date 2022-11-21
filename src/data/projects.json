@@ -1,17 +1,45 @@
 [
   {
+    "repo": "NodeJS News API",
+    "thumbnail": "/img/nodejsnews.png",
+    "description": "An API which hourly retrieves NodeJS news from another API and have own endpoints and filters.",
+    "url": ["https://github.com/zerpajose/nodejs_news_api"],
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nodedotjs.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nestjs.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/sequelize.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/postgresql.svg"
+    ]
+  },
+  {
     "repo": "Minting (CryptoDevs NFT)",
     "thumbnail": "/img/cryptodevslogo.png",
     "description": "Smart Contract to mint nfts from CryptoDevs collection, prioritizing whitelisted addresses (includes frontend)",
-    "url": ["https://github.com/zerpajose/NFT_Collection_Contracts", "https://github.com/zerpajose/nft_collection_svelte"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/solidity.svg", "/img/faHardhat.svg", "/img/ethers.svg", "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/svelte.svg"]
+    "url": [
+      "https://github.com/zerpajose/NFT_Collection_Contracts",
+      "https://github.com/zerpajose/nft_collection_svelte"
+    ],
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/solidity.svg",
+      "/img/faHardhat.svg",
+      "/img/ethers.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/svelte.svg"
+    ]
   },
   {
     "repo": "Whitelist (CryptoDevs NFT)",
     "thumbnail": "/img/cryptodevslogo.png",
     "description": "Smart Contract to whitelist addresses to a future NFT minting (includes frontend)",
-    "url": ["https://github.com/zerpajose/Whitelist_Contracts", "https://github.com/zerpajose/whitelist_dapp_svelte"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/solidity.svg", "/img/faHardhat.svg", "/img/ethers.svg", "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/svelte.svg"]
+    "url": [
+      "https://github.com/zerpajose/Whitelist_Contracts",
+      "https://github.com/zerpajose/whitelist_dapp_svelte"
+    ],
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/solidity.svg",
+      "/img/faHardhat.svg",
+      "/img/ethers.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/svelte.svg"
+    ]
   },
   {
     "repo": "My Portfolio",
@@ -25,41 +53,71 @@
     "thumbnail": "/img/covid.png",
     "description": "An information page to view some statistics about Covid 19 in Chile and the world, fetching it from an public API",
     "url": ["https://github.com/zerpajose/DL_Covid19_Stats"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nodedotjs.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/express.svg"]
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nodedotjs.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/express.svg"
+    ]
   },
   {
     "repo": "Wild Animals",
     "thumbnail": "/img/lion.svg",
     "description": "A system to register and manage a wild animal research at Australia",
     "url": ["https://github.com/zerpajose/DL_Animales_Salvajes"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/json.svg"]
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/json.svg"
+    ]
   },
   {
     "repo": "Super Hero",
     "thumbnail": "/img/superhero.png",
     "description": "A site to search the whole information of your favorite superheroe fetching them from an public API",
     "url": ["https://github.com/zerpajose/DL_Superhero"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg"]
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg"
+    ]
   },
   {
     "repo": "Skate Park Santiago",
     "thumbnail": "/img/skate.svg",
     "description": "System to register and manage participants to Skating event",
     "url": ["https://github.com/zerpajose/DL_SkatePark_Event"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/handlebarsdotjs.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/postgresql.svg"]
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/handlebarsdotjs.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/postgresql.svg"
+    ]
   },
   {
     "repo": "Roommates App",
     "thumbnail": "/img/roommates.svg",
     "description": "App to manage shared expenses by roommates",
     "url": ["https://github.com/zerpajose/DL_Roommates"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/json.svg"]
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/json.svg"
+    ]
   },
   {
     "repo": "Viajes Chile",
     "thumbnail": "/img/travel.png",
     "description": "Tourism company information & landing page",
     "url": ["https://github.com/zerpajose/DL_Viajes_Chile"],
-    "labels": ["https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg","https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg"]
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg"
+    ]
   }
 ]
