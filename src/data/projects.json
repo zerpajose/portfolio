@@ -3,7 +3,7 @@
     "repo": "Students API",
     "thumbnail": "/img/students_api.png",
     "description": "Defines a REST API with a Students + Subjects CRUD. It has endpoint to search students by rut, and subjects associated to a student by rut, in addition to basic CRUD operations.",
-    "url": ["https://github.com/zerpajose/nodejs_news_api"],
+    "url": ["https://github.com/zerpajose/students_API_dynamoDB"],
     "labels": [
       "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/typescript.svg",
       "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nestjs.svg",
