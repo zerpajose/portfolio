@@ -1,5 +1,19 @@
 [
   {
+    "repo": "Students API",
+    "thumbnail": "/img/students_api.png",
+    "description": "Defines a REST API with a Students + Subjects CRUD. It has endpoint to search students by rut, and subjects associated to a student by rut, in addition to basic CRUD operations.",
+    "url": ["https://github.com/zerpajose/nodejs_news_api"],
+    "labels": [
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/typescript.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/nestjs.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/awslambda.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/amazondynamodb.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/serverless.svg",
+      "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/swagger.svg"
+    ]
+  },
+  {
     "repo": "NodeJS News API",
     "thumbnail": "/img/nodejsnews.png",
     "description": "An API which hourly retrieves NodeJS news from another API and have own endpoints and filters.",

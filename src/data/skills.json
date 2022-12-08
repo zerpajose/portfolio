@@ -15,6 +15,10 @@
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg"
       },
       {
+        "lang": "Typescript",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/typescript.svg"
+      },
+      {
         "lang": "Solidity",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/solidity.svg"
       }
@@ -59,6 +63,18 @@
       {
         "lang": "Sequelize",
         "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/sequelize.svg"
+      },
+      {
+        "lang": "Serverless",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/serverless.svg"
+      },
+      {
+        "lang": "Amazon DynamoDB",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/amazondynamodb.svg"
+      },
+      {
+        "lang": "Amazon Lambda",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/awslambda.svg"
       }
     ]
   },
